@@ -24,9 +24,8 @@ def main():
 	cams = arlo.cameras
 	for cam in cams:
 		writeData(cam)
-		time.sleep(2)
-	else:
-		sys.exit()
+		time.sleep(15)
+	sys.exit()
 
 if __name__ == "__main__":
 	main()
